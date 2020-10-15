@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.landing {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #f3f2f2c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+  text-align: center;
+}
+
+.landing .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.landing .img img {
+  width: 31vh;
+  height: 31vh;
+  padding: 2.8vh;
+  background-color: #f3f2f2c0 !important;
+  border-radius: 100%;
+  -webkit-box-shadow: 10px 10px 15px #dddada,  inset -10px -10px 4px #00000007;
+          box-shadow: 10px 10px 15px #dddada,  inset -10px -10px 4px #00000007;
+}
+
+.landing .me {
+  width: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0.2em 1em 0.2em;
+  min-height: 20vh;
+  border-radius: 1em;
+  -webkit-box-shadow: 0.32537960954446854vh 0.32537960954446854vh 1.08459vh #c4c1c113, -0.32537960954446854vh -0.32537960954446854vh 1.08459vh #ffffff;
+          box-shadow: 0.32537960954446854vh 0.32537960954446854vh 1.08459vh #c4c1c113, -0.32537960954446854vh -0.32537960954446854vh 1.08459vh #ffffff;
+}
+
+#typed {
+  padding-top: 0.5em;
+  height: 2em;
+  color: #f53f2b;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(194, 26, 26, 0.8);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
+
+#typed {
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */

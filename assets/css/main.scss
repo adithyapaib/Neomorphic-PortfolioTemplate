@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+$white: #f3f2f2c0;
+$orange : #f53f2b;
+@import 'landing';
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+    
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(194, 26, 26, 0.8); 
+   
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+#typed {
+    display: inline;
+}
