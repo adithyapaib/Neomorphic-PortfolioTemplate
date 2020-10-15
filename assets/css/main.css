@@ -4,7 +4,7 @@
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background: #f3f2f2c0;
+  background: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +42,7 @@
   width: 31vh;
   height: 31vh;
   padding: 2.8vh;
-  background-color: #f3f2f2c0 !important;
+  background-color: #ffffff !important;
   -webkit-animation: outglow 4s ease forwards;
           animation: outglow 4s ease forwards;
 }
@@ -120,7 +120,7 @@
 }
 
 body {
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  background: #ffffff !important;
 }
 
 ::-webkit-scrollbar {

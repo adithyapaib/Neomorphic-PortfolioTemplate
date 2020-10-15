@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-$white: #f3f2f2c0;
+$white: #ffffff;
 $orange : #f53f2b;
 @import 'landing';
 
@@ -10,8 +10,8 @@ $orange : #f53f2b;
 }
 body
 {
-   
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    background: $white !important;
+     
 }
 
 
