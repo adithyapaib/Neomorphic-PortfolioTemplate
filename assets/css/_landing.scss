@@ -23,10 +23,32 @@ $white: #f3f2f2c0;
             height: 31vh;
             padding: 2.8vh;
             background-color: $white !important;
-            border-radius: 100%;
-box-shadow:   10px 10px 15px #dddada,  inset -10px -10px 4px #00000007 ;
+            animation: outglow 4s ease forwards;
+
+        }
+        @keyframes outglow {
+           0% {
+            border-radius: 0%;
+            box-shadow:   -10px -10px 15px #dddada,  inset 10px 10px 4px #00000010 ;
+            
+            
+            
+            }
+            50%{
+                border-radius: 50%;
+                box-shadow:   10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010 ;
+                
+                
+            }
+            100%
+            {
+                border-radius: 100%;
+                box-shadow:   10px 10px 15px #dddada,  inset -10px -10px 4px #00000010 ;
+            }
+            
         }
     }
+   
     .me
     {
         width: 35vh;
