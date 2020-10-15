@@ -28,7 +28,7 @@
         }
         @keyframes outglow {
            0% {
-            border-radius: 0%;
+            border-radius: 20%;
             box-shadow:   -10px -10px 15px #dddada,  inset 10px 10px 4px #00000010 ;
             
             
@@ -58,9 +58,10 @@
         flex-wrap: wrap;
         flex-direction: column;
         padding: 1em 0.2em 1em 0.2em;
+        
        min-height: 20vh;
         border-radius: 1em;
-        box-shadow: 0.32537960954446854vh 0.32537960954446854vh 1.08459vh #c4c1c113, -0.32537960954446854vh -0.32537960954446854vh 1.08459vh #ffffff;
+        box-shadow:   5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c ;
        
     }
    
