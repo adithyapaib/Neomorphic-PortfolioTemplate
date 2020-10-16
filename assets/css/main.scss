@@ -8,13 +8,16 @@ $orange : #f53f2b;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    max-width: 100% !important;
+    
 }
 body
 {
     background: whitesmoke !important;
  
     width: 99vw;
-    max-width: 100%;
+    max-width: 100% !important;
+    cursor: url('/assets/img/cursor.png'), auto;
      
 }
 
@@ -43,3 +46,4 @@ body
 
 @import 'landing';
 @import 'about';
+@import 'projects';
