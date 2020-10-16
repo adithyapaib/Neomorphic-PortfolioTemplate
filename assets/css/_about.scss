@@ -114,11 +114,13 @@
     .box3
     {
         display: flex;
-
+        justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
         span {
             justify-self: flex-start;
+            
+            
             width: 100%;
             margin-top: 1.5rem;
             margin-bottom: 1em;
