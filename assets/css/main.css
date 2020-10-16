@@ -204,8 +204,8 @@ body {
   cursor: pointer;
   border-radius: 10px;
   border: none;
-  -webkit-box-shadow: -3px -3px 3px #ffffff,  3px 3px 3px #00000018;
-          box-shadow: -3px -3px 3px #ffffff,  3px 3px 3px #00000018;
-  margin-bottom: 10px;
+  -webkit-box-shadow: -30.15625vw -0.15625vw 0.15625vw #ffffff,  0.15625vw 0.15625vw  0.15625vw #00000018;
+          box-shadow: -30.15625vw -0.15625vw 0.15625vw #ffffff,  0.15625vw 0.15625vw  0.15625vw #00000018;
+  margin-bottom: 0.5208333333333334vw;
 }
 /*# sourceMappingURL=main.css.map */
