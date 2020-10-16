@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 $white: #ffffff;
 $orange : #f53f2b;
-@import 'landing';
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -11,33 +11,14 @@ $orange : #f53f2b;
 }
 body
 {
-    background: $white !important;
+    background: whitesmoke !important;
+ 
+    width: 99vw;
+    max-width: 100%;
      
 }
 
 
-::-webkit-scrollbar {
-    width: 15px;
-    
-}
- 
-/* Track */
-::-webkit-scrollbar-track {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    margin: 100px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(194, 26, 26, 0.8); 
-   
-}
-::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(255,0,0,0.4); 
-}
-#typed {
-    display: inline;
-}
+
+@import 'landing';
+@import 'about';

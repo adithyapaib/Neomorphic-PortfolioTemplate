@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: whitesmoke !important;
+  width: 99vw;
+  max-width: 100%;
+}
+
 .landing {
   margin: 0;
   padding: 0;
   width: 100vw;
+  max-width: 100%;
   height: 100vh;
   background: whitesmoke;
   display: -webkit-box;
@@ -84,7 +98,7 @@
 }
 
 .landing .me {
-  width: 35vh;
+  min-width: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,11 +114,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1em 0.2em 1em 0.2em;
+  padding: 3vh 2vh 3vh 2vh;
   min-height: 20vh;
   border-radius: 1em;
-  -webkit-box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
-          box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
+  -webkit-box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c, -5px -5px 30px #ffffffbb,  inset -5px -5px 10px #0000000c;
+          box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c, -5px -5px 30px #ffffffbb,  inset -5px -5px 10px #0000000c;
 }
 
 #typed {
@@ -113,38 +127,85 @@
   color: #f53f2b;
 }
 
-* {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
+.about {
+  margin-top: 10%;
+  max-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-body {
-  background: #ffffff !important;
+.about .title {
+  font-weight: 600;
+  font-size: 2em;
 }
 
-::-webkit-scrollbar {
-  width: 15px;
+.about .card-wrapper {
+  width: 100%;
+  margin-top: 5%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
+.about .card-wrapper .box {
+  width: 450px;
+  max-width: 90vw;
+  height: 600px;
+  margin: 3em;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
+          box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
+  text-align: center;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.about .card-wrapper .box1 .resume {
+  width: 100%;
+}
+
+.about .card-wrapper .box1 .resume button {
+  padding: 0.5em;
+  outline: none;
+  cursor: pointer;
   border-radius: 10px;
-  margin: 100px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: rgba(194, 26, 26, 0.8);
-}
-
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255, 0, 0, 0.4);
-}
-
-#typed {
-  display: inline;
+  border: none;
+  -webkit-box-shadow: -3px -3px 3px #ffffff,  3px 3px 3px #00000018;
+          box-shadow: -3px -3px 3px #ffffff,  3px 3px 3px #00000018;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
