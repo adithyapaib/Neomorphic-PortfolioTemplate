@@ -1,7 +1,8 @@
 .about{
     margin-top: 5%;
+    position: relative;
     max-width: 100%;
-    min-height: 100vh;
+    height: max-content;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,11 +16,12 @@
 {
     width: 100%;
     margin-top: 5%;
-    height: 100vh;
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    max-height: fit-content;
   
     .box
     {

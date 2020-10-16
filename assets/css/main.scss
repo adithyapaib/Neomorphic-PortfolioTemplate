@@ -46,4 +46,12 @@ body
 
 @import 'landing';
 @import 'about';
-@import 'projects';
+
+.footer
+{
+  margin-top: 10%;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: -50px;
+    
+}
