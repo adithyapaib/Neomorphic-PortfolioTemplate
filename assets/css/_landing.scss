@@ -25,6 +25,8 @@
             padding: 2.8vh;
             background-color: $white !important;
             animation: outglow 4s ease forwards;
+            animation-delay: 1s;
+            border-radius: 20%;
 
         }
         @keyframes outglow {
@@ -36,10 +38,14 @@
             
             }
             50%{
-                border-radius: 50%;
+                border-radius: 40%;
                 box-shadow:   10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010 ;
                 
                 
+            }
+            80%
+            {
+                border-radius: 30%;
             }
             100%
             {

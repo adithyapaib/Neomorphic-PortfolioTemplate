@@ -85,6 +85,9 @@ body {
   background-color: #ffffff !important;
   -webkit-animation: outglow 4s ease forwards;
           animation: outglow 4s ease forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  border-radius: 20%;
 }
 
 @-webkit-keyframes outglow {
@@ -94,9 +97,12 @@ body {
             box-shadow: -10px -10px 15px #dddada,  inset 10px 10px 4px #00000010;
   }
   50% {
-    border-radius: 50%;
+    border-radius: 40%;
     -webkit-box-shadow: 10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010;
             box-shadow: 10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010;
+  }
+  80% {
+    border-radius: 30%;
   }
   100% {
     border-radius: 100%;
@@ -112,9 +118,12 @@ body {
             box-shadow: -10px -10px 15px #dddada,  inset 10px 10px 4px #00000010;
   }
   50% {
-    border-radius: 50%;
+    border-radius: 40%;
     -webkit-box-shadow: 10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010;
             box-shadow: 10px 10px 25px #f53f2b63,  inset -10px -10px 4px #00000010;
+  }
+  80% {
+    border-radius: 30%;
   }
   100% {
     border-radius: 100%;
