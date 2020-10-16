@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   <script src="https://kit.fontawesome.com/4019246ab4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Portfolio</title>
 </head>
 <body>
@@ -23,33 +24,34 @@
  <div class="about">
    <div class="title"> About Me</div>
    <div class="card-wrapper">
-     <div class="box box1"><span> <b>About Me</b></span><img src="assets/img/aboutme.jpg" alt=""><p>Hey I am Akshay Kumar from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I Love to design websites and UI/UX. </p><div class="resume"><button>Resume</button></div></div>
-     <div class="box box2 "> <span><b>Skills</b></span>
+     <div class="box box1 animate__animated animate__slideInLeft wow" data-wow-duration="1s" data-wow-delay="0s"><span> <b>About Me</b></span><img src="assets/img/aboutme.jpg" alt=""><p>Hey I am Akshay Kumar from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I Love to design websites and UI/UX. </p><div class="resume"><button>Resume</button></div></div>
+     <div class="box box2 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="1s"> <span><b>Skills</b></span>
     <br> <span> Programing</span>
      <ul class="mainlist"> 
-                         <ul class="sublist"><li><i class="devicon-c-plain-wordmark"></i></li><li>C</li></ul>
-                         <ul class="sublist"><li><i class="devicon-cplusplus-plain-wordmark"></i></li><li>C++</li></ul>
-                         <ul class="sublist"><li><i class="devicon-python-plain-wordmark"></i></li><li>Python</li></ul>
-                         <ul class="sublist"><li><i class="devicon-java-plain-wordmark"></i></li><li>Java</li></ul>
+                         <ul class="sublist"><li class="icon"><i class="devicon-c-plain-wordmark"></i></li><li>C</li></ul>
+                         <ul class="sublist"><li class="icon"><i class="devicon-cplusplus-plain-wordmark"></i></li><li>C++</li></ul>
+                         <ul class="sublist"><li class="icon"><i class="devicon-python-plain-wordmark"></i></li><li>Python</li></ul>
+                         <ul class="sublist"><li class="icon"><i class="devicon-java-plain-wordmark"></i></li><li>Java</li></ul>
+
      </ul>
     
 
-<span> Design</span>
+<span style="width: 100%; text-align: center;">Design</span>
 <ul class="mainlist"> 
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/48/000000/adobe-illustrator.png"/></li><li>Illustrator</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/48/000000/adobe-photoshop.png"/></li><li>Photoshop</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/48/000000/adobe-xd.png"/></li><li>XD</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/48/000000/figma.png"/></li><li>Figma</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-illustrator.png"/></li><li>Illustrator</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-photoshop.png"/></li><li>Photoshop</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-xd.png"/></li><li>XD</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/48/000000/figma.png"/></li><li>Figma</li></ul>
 </ul>
 <span>Tools</span>
 <ul class="mainlist"> 
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/32/000000/git.png"/></li><li>Git</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/32/000000/github.png"/></li><li>Github</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/carbon-copy/32/000000/visual-studio-code-2019.png"/></li><li>VS Code</li></ul>
- <ul class="sublist"><li><img src="https://img.icons8.com/windows/32/000000/gitlab.png"/></li><li>Gitlab</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/32/000000/git.png"/></li><li>Git</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/32/000000/github.png"/></li><li>Github</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/carbon-copy/32/000000/visual-studio-code-2019.png"/></li><li>VS Code</li></ul>
+ <ul class="sublist"><li class="icon"><img src="https://img.icons8.com/windows/32/000000/gitlab.png"/></li><li>Gitlab</li></ul>
 </ul>
-      </div>
-     <div class="box"></div>
+</div>
+     <div class="box box3 animate__animated animate__slideInRight wow"data-wow-duration="1s" data-wow-delay="2s"><span>Connect</span></div>
     
 
    </div>
@@ -73,6 +75,10 @@ var typed = new Typed("#typed", {
     loop: true,
     showCursor: false,
   });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+<script>
+  new WOW().init();
 </script>
 </body>
 </html>

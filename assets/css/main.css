@@ -154,7 +154,7 @@ body {
 }
 
 .about {
-  margin-top: 10%;
+  margin-top: 5%;
   max-width: 100%;
   max-width: 100%;
   min-height: 100vh;
@@ -250,17 +250,39 @@ body {
   padding: 0.25em;
 }
 
+.about .card-wrapper .box2 {
+  font-size: 1em;
+  position: relative;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+}
+
+.about .card-wrapper .box2 span {
+  margin-top: 1.5rem;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
 .about .card-wrapper .box2 .mainlist {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
+}
+
+.about .card-wrapper .box2 .mainlist .icon {
+  margin-top: 20px;
 }
 
 .about .card-wrapper .box2 .mainlist .sublist {
