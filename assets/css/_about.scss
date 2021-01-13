@@ -1,157 +1,139 @@
-.about{
-    margin-top: 5%;
-    position: relative;
-    max-width: 100%;
-    height: max-content;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-.title
-{
+.about {
+  margin-top: 5%;
+  position: relative;
+  max-width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .title {
     font-weight: 600;
     font-size: 2em;
-}
-.card-wrapper
-{
+  }
+  .card-wrapper {
     width: 100%;
     margin-top: 5%;
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     max-height: fit-content;
-  
-    .box
-    {
-        width: 450px;
-        max-width: 90vw;
-        max-height: fit-content;
-        height: 600px;
-        margin: 3em;
-        border-radius: 30px;
-        box-shadow:   5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
-        text-align: center;
-        padding: 15px;
+    .box {
+      width: 450px;
+      max-width: 90vw;
+      max-height: fit-content;
+      height: 600px;
+      margin: 3em;
+      border-radius: 30px;
+      box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
+      text-align: center;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      flex-wrap: wrap;
+      line-height: 1.6;
+      padding-bottom: 20px;
+    }
+    .box1 {
+      .resume {
+        width: 100%;
+        button {
+          padding: 0.8em 1.8em;
+          outline: none;
+          cursor: pointer;
+          border-radius: 6px;
+          border: none;
+          background: $orange;
+          color: rgb(252, 252, 252);
+          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+            0.15625vw 0.15625vw 0.19625vw #00000062;
+          margin-bottom: 0.5208333333333334vw;
+          transition:  3s background;
+          &:hover
+          {
+              background: #ff1900;
+              color: white;
+              border-radius: 30px;
+          }
+        }
+      }
+      img {
+        width: 25vh;
+        height: 25vh;
+        margin: 0 auto;
+        border-radius: 30%;
+        box-shadow: -10px -10px 20px #b8b7b7, 10px 10px 20px #0000004b;
+        background: #000;
+        padding: 0.25em;
+      }
+    }
+    .box2 {
+      font-size: 1em;
+      position: relative;
+      height: max-content;
+      padding: 20px;
+      span {
+        margin-top: 1.5rem;
+        margin-bottom: 1em;
+        font-weight: bold;
+      }
+      .mainlist {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
         flex-wrap: wrap;
-        line-height: 1.6;
-        padding-bottom: 20px;
-        
-    }
-    .box1
-    {
-        .resume
-        {
-            width: 100%;
-            button 
-            {
-                padding: 0.5em;
-                outline: none;
-                cursor: pointer;
-                border-radius: 10px;
-                border: none;
-                background: $orange;
-                color: white;
-                box-shadow:   -0.15625vw -0.15625vw 0.65625vw #ffffff,  0.15625vw 0.15625vw  0.19625vw #0000003b;
-                margin-bottom: 0.5208333333333334vw;
-            }
+        list-style: none;
 
+        .icon {
+          margin-top: 20px;
         }
-       img 
-       {
-           width: 25vh;
-            height: 25vh;
-            margin: 0 auto;
-            border-radius: 30%;
-            box-shadow:   -10px -10px 20px #b8b7b7,  10px 10px 20px #0000004b;
-            background: #000;
-            padding: 0.25em;
-            
-           
-       }  
-    }
-    .box2
-    {
-        font-size: 1em;
-        position: relative;
-        height: max-content;
-        padding: 20px; 
-        span 
-        {
-            margin-top: 1.5rem;
-            margin-bottom: 1em;
-            font-weight: bold;
+        .sublist {
+          list-style: none;
+          margin-left: 20px;
         }
-        .mainlist
-        {  width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-            list-style: none;
-            
-            .icon{
-                margin-top: 20px;
-            }
-            .sublist
-            {
-               
-                list-style: none;
-                margin-left: 20px;
-            }
-        }
-        
+      }
 
-        i 
-        {
-            font-size: 48px;
-        }
+      i {
+        font-size: 48px;
+      }
     }
-    .box3
-    {
+    .box3 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      span {
+        justify-self: flex-start;
+
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 1em;
+        font-weight: bold;
+      }
+      ul {
+        width: 100%;
+        margin-left: 5%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
         flex-wrap: wrap;
-        flex-direction: column;
-        span {
-            justify-self: flex-start;
-            
-            
-            width: 100%;
-            margin-top: 1.5rem;
-            margin-bottom: 1em;
-            font-weight: bold;
-        }
-        ul
-        {
-            width: 100%;
-            margin-left: 5%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-wrap: wrap;
-            list-style: none;
-           
-            li 
-            {
-               margin: 10px;
-               a 
-               {
-                   color: black;
-                   font-size: 3em;
-                   
-                   &:hover
-                   {
-                       color: $orange;
-                   }
-               }
+        list-style: none;
+
+        li {
+          margin: 10px;
+          a {
+            color: black;
+            font-size: 3em;
+
+            &:hover {
+              color: $orange;
             }
+          }
         }
+      }
     }
-    
-}
+  }
 }
