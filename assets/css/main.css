@@ -216,8 +216,8 @@ body {
   height: 600px;
   margin: 3em;
   border-radius: 30px;
-  -webkit-box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
-          box-shadow: 5px 5px 30px #dddada,  inset -5px -5px 10px #0000000c;
+  -webkit-box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
+          box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
   text-align: center;
   padding: 15px;
   display: -webkit-box;
@@ -241,16 +241,24 @@ body {
 }
 
 .about .card-wrapper .box1 .resume button {
-  padding: 0.5em;
+  padding: 0.8em 1.8em;
   outline: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 6px;
   border: none;
   background: #f53f2b;
-  color: white;
-  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,  0.15625vw 0.15625vw  0.19625vw #0000003b;
-          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,  0.15625vw 0.15625vw  0.19625vw #0000003b;
+  color: #fcfcfc;
+  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
   margin-bottom: 0.5208333333333334vw;
+  -webkit-transition: 3s background;
+  transition: 3s background;
+}
+
+.about .card-wrapper .box1 .resume button:hover {
+  background: #ff1900;
+  color: white;
+  border-radius: 30px;
 }
 
 .about .card-wrapper .box1 img {
@@ -258,8 +266,8 @@ body {
   height: 25vh;
   margin: 0 auto;
   border-radius: 30%;
-  -webkit-box-shadow: -10px -10px 20px #b8b7b7,  10px 10px 20px #0000004b;
-          box-shadow: -10px -10px 20px #b8b7b7,  10px 10px 20px #0000004b;
+  -webkit-box-shadow: -10px -10px 20px #b8b7b7, 10px 10px 20px #0000004b;
+          box-shadow: -10px -10px 20px #b8b7b7, 10px 10px 20px #0000004b;
   background: #000;
   padding: 0.25em;
 }
