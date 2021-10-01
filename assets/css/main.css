@@ -18,6 +18,10 @@ body {
   width: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 1px 1px 5px #b8b7b7, inset 1px 1px 5px #0000004b;
           box-shadow: inset 1px 1px 5px #b8b7b7, inset 1px 1px 5px #0000004b;
@@ -248,8 +252,10 @@ body {
   border: none;
   background: #f53f2b;
   color: #fcfcfc;
-  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
-          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+ 0.15625vw 0.15625vw 0.19625vw #00000062;
+          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+ 0.15625vw 0.15625vw 0.19625vw #00000062;
   margin-bottom: 0.5208333333333334vw;
   -webkit-transition: 3s background;
   transition: 3s background;
@@ -331,6 +337,11 @@ body {
           flex-direction: column;
 }
 
+.iconn:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
 .about .card-wrapper .box3 span {
   justify-self: flex-start;
   width: 100%;
@@ -370,6 +381,8 @@ body {
 }
 
 .footer {
+ 
+  padding: 2% 0;
   margin-top: 10%;
   width: 95vw;
   max-width: 100%;
