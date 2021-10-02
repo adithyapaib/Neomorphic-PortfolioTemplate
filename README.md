@@ -70,6 +70,11 @@ Please adhere to this project's **code of conduct**.
 
 If you have any feedback, please reach out to us at paiadithya26@gmail.com
 
+## Support
+
+For support, email paiadithya26@gmail.com
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
