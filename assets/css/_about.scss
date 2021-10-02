@@ -122,13 +122,20 @@
 
         li {
           margin: 10px;
-          a {
-            color: black;
+          a{
             font-size: 3em;
-
-            &:hover {
-              color: $orange;
-            }
+          }
+          a.github-link {
+            color: #171515;
+          }
+          a.linkedin-link {
+            color: #0A66C2;
+          }
+          a.gmail-link {
+            color: black;
+          }
+          a.twitter-link {
+            color: #1D9BF0;
           }
         }
       }
