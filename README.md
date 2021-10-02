@@ -28,6 +28,14 @@ https://adithyapaib.github.io/Neomorphic-PortfolioTemplate/
 - Aesthetic and modern UI
 
 
+ ## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Hover Background  | ![#ff1900](https://via.placeholder.com/10/ff1900?text=+) #ff1900 |
+| Box Shadow  | ![#b8b7b7](https://via.placeholder.com/10/b8b7b7?text=+) #b8b7b7 |
+| Text | ![#0000004b](https://via.placeholder.com/10/0000004b?text=+) #0000004b |
+| Main Background | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
   
 # Hi, I'm Adithya! 👋
@@ -45,20 +53,28 @@ I'm a Front-End Developer and Open-Source Enthusiast.
 ## 🛠 Skills
 Javascript, HTML, CSS...
 
+## Authors
+
+- [@adithyapaib](https://github.com/adithyapaib)
+
+## Contributing
+
+Contributions are always welcome!
+
+See **Issues section** for ways to get started.
+
+Please adhere to this project's **code of conduct**.
+
   
 ## Feedback
 
 If you have any feedback, please reach out to us at paiadithya26@gmail.com
 
-  ## Color Reference
+## License
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Hover Background  | ![#ff1900](https://via.placeholder.com/10/ff1900?text=+) #ff1900 |
-| Box Shadow  | ![#b8b7b7](https://via.placeholder.com/10/b8b7b7?text=+) #b8b7b7 |
-| Text | ![#0000004b](https://via.placeholder.com/10/0000004b?text=+) #0000004b |
-| Main Background | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+[MIT](https://choosealicense.com/licenses/mit/)
 
+ 
 
 
 
