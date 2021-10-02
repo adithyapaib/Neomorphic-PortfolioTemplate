@@ -163,7 +163,8 @@ body {
   border: none;
   background: #f53f2b;
   color: #fcfcfc;
-  box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+  box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+ 0.15625vw 0.15625vw 0.19625vw #00000062;
   margin-bottom: 0.5208333333333334vw;
   border-radius: 6px;
   transition: background 3s, border-radius 300ms 100ms;
@@ -264,4 +265,13 @@ body {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+.footer a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+.footer a:hover{
+  color: #f53f2b;
+}
+
 /*# sourceMappingURL=main.css.map */
