@@ -255,7 +255,7 @@ body {
 
 .about .card-wrapper .box3 ul li a {
     color: black;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 .about .card-wrapper .box3 ul li a:hover {
@@ -280,5 +280,21 @@ body {
   padding: 0;
 }
 
-
-
+.topBtn a {
+    position: absolute;
+    bottom: 75px; 
+    right: 30px; 
+  font-size: 3rem;
+    color: rgb(0, 0, 0);
+   @media all and (max-width:500px){
+   a.button1{
+    display:block;
+    margin-bottom:1.4em;
+   }
+  
+  }
+  }
+  .topBtn a:hover {
+    opacity: 1;
+    color: #f53f2b;
+  }
