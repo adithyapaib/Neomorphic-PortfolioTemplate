@@ -273,5 +273,21 @@ body {
 .footer a:hover{
   color: #f53f2b;
 }
+.goTop a {
+  position: absolute;
+  bottom: 75px; 
+  right: 30px; 
+font-size: 3rem;
+  color: rgb(0, 0, 0);
+ @media all and (max-width:500px){
+ a.button1{
+  display:block;
+  margin-bottom:1.4em;
+ }
 
+}
+}
+.goTop a:hover {
+  color: #f53f2b;
+}
 /*# sourceMappingURL=main.css.map */
