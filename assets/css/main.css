@@ -296,4 +296,16 @@ body {
   border-radius: 30px;
   /* background: rgb(255, 0, 51); */
   box-shadow: 0 0 10px #f53f2b,0 0 40px #f53f2b, 0 0 80px #f53f2b ;
+}
+
+#footername{
+  text-decoration: none;
+  color: #f53f2b;
+  transition: 0.8s;
+}
+#footername:hover{
+  color: black;
+  text-shadow: 2px 2px 5px #f53f2b;
+}
+
 /*# sourceMappingURL=main.css.map */
