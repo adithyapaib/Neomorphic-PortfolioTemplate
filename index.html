@@ -27,7 +27,7 @@
 </head>
 <body>
     <!--Landing div-->
-    <div class="landing">
+    <div class="landing" id="top">
       <!--Make sure that the image u add here is a square image and for best performance compress the image -->
      <div class="img animate__animated animate__slideInDown wow" data-wow-duration="1.5s" data-wow-delay="0.3s"><img src="assets/img/me.jpg" alt="name photo"></div>  
    <div class="me animate__animated animate__slideInUp wow" data-wow-duration="1.5s" data-wow-delay="0.3s">
@@ -75,8 +75,22 @@
       <li><a href="https://twitter.com/adithyapaib" target="_blank"><i class="fab fa-twitter  iconn"></i></a></li>
     </ul>
     </div>
-   </div>
+  </div>
+
+  <img class="arrow" id="arr" src="assets/img/images-removebg-preview (1).png">
   <!--TypedJs -->
+<script>
+
+let arr = document.getElementById('arr');
+arr.addEventListener('click',function(){
+  window.scrollTo({
+    top:0,
+    left:0,
+    behavior:"smooth"
+  })
+})
+
+</script> 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script>
 //Enter your specilizations here
@@ -88,13 +102,21 @@ var typed = new Typed("#typed", {
     loop: true,
     showCursor: false,
   });
+
+  let a = document.getElementsByClassName('arrow')
+  console.log(a)
+
 </script>
 <!--Wow js is for aniamtion on scroll-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
 <script>
   new WOW().init();
+
 </script>
 <!--Dont forget to follow me and star the repo on github !!!!!!!-->
 <div class="footer">Made with ❤️ by <a href="https://adithyapai.com">Adithya Pai</a></div>
+
+
 </body>
 </html>
+
