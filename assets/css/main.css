@@ -352,7 +352,7 @@ a {
 
 .about .card-wrapper .box3 ul {
   width: 100%;
-  margin-left: 5%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,3 +390,4 @@ a {
   margin-bottom: -50px;
 }
 /*# sourceMappingURL=main.css.map */
+
