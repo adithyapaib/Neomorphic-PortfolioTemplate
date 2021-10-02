@@ -41,7 +41,7 @@
    <div class="card-wrapper">
      <div class="box box1 animate__animated animate__slideInLeft wow" data-wow-duration="1s" data-wow-delay="0s"><span> <b>About Me</b></span>
       <!--Add a SQUARE IMAGE OF YOURS FOR BEST APPEARENCE (1:1)-->
-      <img src="assets/img/aboutme.jpg" alt=""><p>Hey I am Adithya Pai from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I love to design websites and <b style="color: #f53f2b;">UI/UX</b></p><div class="resume"><button>Resume</button></div></div>
+      <img src="assets/img/aboutme.jpg" alt=""><p>Hey I am Adithya Pai from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I love to design websites and <b style="color: #f53f2b;">UI/UX</b></p><div class="resume"><a href="#" class="resumelink">Resume</a></div></div>
      <div class="box box2 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.37s"> <span><b>Skills</b></span>
     <br> <span> Programming</span>
      <ul class="mainlist"> 
@@ -69,10 +69,10 @@
      <div class="box box3 animate__animated animate__slideInRight wow" data-wow-duration="1s" data-wow-delay="0.75s"><span>Connect</span>
     <ul>
       <!--Enter your profile links here-->
-      <li class=""><a href="https://github.com/adithyapaib"><i class="fab fa-github iconn"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/adithyapaib"><i class="fab fa-linkedin-in  iconn"></i></a></li>
-      <li><a href="mail:paiadithya26@gmail.com"><i class="fas fa-at  iconn"></i></a></li>
-      <li><a href="https://twitter.com/adithyapaib"><i class="fab fa-twitter  iconn"></i></a></li>
+      <li class=""><a href="https://github.com/adithyapaib" class="sociallinks"><i class="fab fa-github iconn"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/adithyapaib" class="sociallinks"><i class="fab fa-linkedin-in  iconn"></i></a></li>
+      <li><a href="mail:paiadithya26@gmail.com" class="sociallinks"><i class="fas fa-at  iconn"></i></a></li>
+      <li><a href="https://twitter.com/adithyapaib" class="sociallinks"><i class="fab fa-twitter  iconn"></i></a></li>
     </ul>
     </div>
    </div>
@@ -95,6 +95,17 @@ var typed = new Typed("#typed", {
   new WOW().init();
 </script>
 <!--Dont forget to follow me and star the repo on github !!!!!!!-->
-<div class="footer">Made with ❤️ by <a href="https://adithyapai.com">Adithya Pai</a></div>
+<style>
+  #footername{
+    text-decoration: none;
+    color: #f53f2b;
+    transition: 0.8s;
+  }
+  #footername:hover{
+    color: black;
+    text-shadow: 2px 2px 5px #f53f2b;
+  }
+</style>
+<div class="footer">Made with ❤️ by <a href="https://adithyapai.com" id="footername">Adithya Pai</a></div>
 </body>
 </html>
