@@ -1,58 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-$white: #ffffff;
-$orange : #f53f2b;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    max-width: 98vw !important;
-    
-    
-}
-body
-{
-    background: whitesmoke !important;
- 
-    width: 99vw;
-    max-width: 100% !important;
-    cursor: url('https://cdn.custom-cursor.com/db/6102/32/color-lush-lava-cursor.png'), auto;
-     
-}
-
-::-webkit-scrollbar {
-    width: 15px;
-  }
-  ::-webkit-scrollbar-track {
-    box-shadow:   inset 1px 1px 5px #b8b7b7, inset 1px 1px 5px #0000004b;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: $orange;
-    border-radius: 3px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0);
-    border-radius: 10px;
-  }
-  ::-webkit-scrollbar-button {
-    display: none;
-  }
-
-
-
-@import 'landing';
-@import 'about';
-
-.footer
-{
-  margin-top: 10%;
-    width: 95vw;
-    max-width: 100%;
-    text-align: center;
-    margin-bottom: 1.2rem;
-}
+@import "variables";
+@import "reset";
+@import "scrollbar";
+@import "landing";
+@import "about";
+@import "footer";
