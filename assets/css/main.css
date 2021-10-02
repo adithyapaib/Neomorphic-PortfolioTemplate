@@ -163,7 +163,8 @@ body {
   border: none;
   background: #f53f2b;
   color: #fcfcfc;
-  box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+  box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+ 0.15625vw 0.15625vw 0.19625vw #00000062;
   margin-bottom: 0.5208333333333334vw;
   border-radius: 6px;
   transition: background 3s, border-radius 300ms 100ms;
@@ -265,3 +266,13 @@ body {
   margin-bottom: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */
+
+.arrow{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  width:50px;
+  margin: 15px;
+  box-shadow: 2px 2px 10px grey;
+  border-radius:200px; ;
+}
