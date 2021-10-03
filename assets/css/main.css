@@ -391,6 +391,16 @@ body {
     transition: all 0.3s;
 }
 
+/* Changes made in social icons hovering */
+.social_media:hover{
+    margin: 2px;
+    background-color: #f3ecec;
+    border: 2px white;
+    border-radius: 70px;
+    margin: 3px;
+    padding: 4px;
+}
+
 .footer a {
     text-decoration: none;
     color: black;
