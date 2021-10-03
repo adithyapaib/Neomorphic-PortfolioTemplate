@@ -1,5 +1,4 @@
 
-
 # Neomorphic-PortfolioTemplate
 This is a OpenSource Portfolio Template Based on Neomorphic Theme Made with pure HTML, CSS(SCSS), And A bit of Java script
 ## Screenshots
@@ -89,6 +88,13 @@ For support, email paiadithya26@gmail.com
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+
+#### Contributors
+
+<a href="https://github.com/adithyapaib/Neomorphic-PortfolioTemplate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=adithyapaib/Neomorphic-PortfolioTemplate" />
+</a>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
