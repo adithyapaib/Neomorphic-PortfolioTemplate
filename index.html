@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#f53f2b">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <!--Type Below the thing that should apear under yoyr name in an Search Engine snipet -->
-    <meta name="description" content="Portfolio To your site">
+    <meta name="description" content="A portfolio website made with HTML and CSS for beginers ">
     <!--Type the your spealizations here -->
     <meta name="keywords" content="HTML, CSS, JavaScript, wavify.js, Developer">
     <!--Write your name below -->
@@ -80,7 +80,202 @@
                 <!--Add a SQUARE IMAGE OF YOURS FOR BEST APPEARENCE (1:1)-->
                 <img src="assets/img/aboutme.jpg" alt="">
                 <p>Hey I am Adithya Pai from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I love to design websites and <b style="color: #f53f2b;">UI/UX</b></p>
-                <div class="resume"><button>Resume</button></div>
+               Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@malvika-sinha 
+ramisha-anwer
+/
+Neomorphic-PortfolioTemplate
+Public
+forked from adithyapaib/Neomorphic-PortfolioTemplate
+0
+051
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Neomorphic-PortfolioTemplate/index.html
+@ramisha-anwer
+ramisha-anwer Update index.html
+Latest commit d10df85 14 hours ago
+ History
+ 6 contributors
+@adithyapaib@DollyKumari@Sameer1408@AnshumanDhiman@AlphaQx@ramisha-anwer
+152 lines (143 sloc)  7.94 KB
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--The below tag is for browser tab color in phones chrome preffered -->
+    <meta name="theme-color" content="#f53f2b">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!--Type Below the thing that should apear under yoyr name in an Search Engine snipet -->
+    <meta name="description" content="Portfolio To your site">
+    <!--Type the your spealizations here -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, wavify.js, Developer">
+    <!--Write your name below -->
+    <meta name="author" content="Adithya Pai B">
+    <!--Add a square image of yours -->
+    <link rel="shortcut icon" href="assets/img/aboutme.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the main compiled scss file-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--Css file for Icons use in skill section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <!--Font awesome (Best Icons site ) -->
+    <script src="https://kit.fontawesome.com/4019246ab4.js" crossorigin="anonymous"></script>
+    <!--For Css Animations in the site -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Enter your Name here and Speacializations so that ur site will be easily available on search engines-->
+    <title>Adithya Pai | Web designer</title>
+</head>
+
+<body>
+    <!--Landing div-->
+    <div class="landing">
+        <!--Make sure that the image u add here is a square image and for best performance compress the image -->
+        <div class="img animate__animated animate__slideInDown wow" data-wow-duration="1.5s" data-wow-delay="0.3s"><img src="assets/img/me.jpg" alt="name photo"></div>
+        <div class="me animate__animated animate__slideInUp wow" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <!--Enter your name here-->
+            <section class="shortme">
+                <h2>Adithya Pai</h2>
+            </section>
+            <h3 id="typed"></h3>
+        </div>
+    </div>
+    <div class="about">
+        <div class="title">Portfolio</div>
+        <div class="card-wrapper">
+            <div class="box box1 animate__animated animate__slideInLeft wow" data-wow-duration="1s" data-wow-delay="0s"><span> <b>About Me</b></span>
+                <!--Add a SQUARE IMAGE OF YOURS FOR BEST APPEARENCE (1:1)-->
+                <img src="assets/img/aboutme.jpg" alt="">
+                <p>Hey I am Adithya Pai from Mangalore, India.<br>I am currently pursuing my BE in Computer Science. <br> I love to design websites and <b style="color: #f53f2b;">UI/UX</b></p>
+                //changes to the resume making it responsive.
+                <div class="resume"><button  type="submit"  onclick=" window.open('http:\/\/resume.adithyapai.com', '_blank')">Resume</button></div>
+            </div>
+            <div class="box box2 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.37s"> <span><b>Skills</b></span>
+                <br> <span> Programming</span>
+                <ul class="mainlist">
+                    <!--U can use Fontawsome icons here-->
+                    <ul class="sublist">
+                        <li class="icon"><i class="devicon-c-plain-wordmark"></i></li>
+                        <li>C</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><i class="devicon-cplusplus-plain-wordmark"></i></li>
+                        <li>C++</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><i class="devicon-python-plain-wordmark"></i></li>
+                        <li>Python</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><i class="devicon-java-plain-wordmark"></i></li>
+                        <li>Java</li>
+                    </ul>
+                </ul><span style="width: 100%; text-align: center;">Design</span>
+                <ul class="mainlist">
+                    <!--USE ICONS FROM ICONS8 OF SIZE 48PX FOR BEST APPEARANCE -->
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-illustrator.png" alt="illustrator" /></li>
+                        <li>Illustrator</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-photoshop.png" alt="Photoshop" /></li>
+                        <li>Photoshop</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/48/000000/adobe-xd.png" alt="adobe xd" /></li>
+                        <li>XD</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/48/000000/figma.png" alt="figma" /></li>
+                        <li>Figma</li>
+                    </ul>
+                </ul>
+                <span>Tools</span>
+                <ul class="mainlist">
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/32/000000/git.png" alt="git" /></li>
+                        <li>Git</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/32/000000/github.png" alt="github" /></li>
+                        <li>Github</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/carbon-copy/32/000000/visual-studio-code-2019.png" alt="vscode" /></li>
+                        <li>VS Code</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/windows/32/000000/gitlab.png" alt="gitlab"></li>
+                        <li>Gitlab</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="box box3 animate__animated animate__slideInRight wow" data-wow-duration="1s" data-wow-delay="0.75s">
+                <div>
+                    <ul>
+                        <!--Enter your profile links here-->
+                        <li class=""><a href="https://github.com/adithyapaib" target="_blank"><i class="fab fa-github iconn"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/adithyapaib" target="_blank"><i class="fab fa-linkedin-in  iconn"></i></a></li>
+                        <li><a href="mail:paiadithya26@gmail.com" target="_blank"><i class="fas fa-at  iconn"></i></a></li>
+                        <li><a href="https://twitter.com/adithyapaib" target="_blank"><i class="fab fa-twitter  iconn"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer">Made with ❤️ by <a href="https://adithyapai.com">Adithya Pai</a></div>
+            </div>
+
+
+        </div>
+
+        <!--TypedJs -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script>
+            //Enter your specilizations here
+            var typed = new Typed("#typed", {
+                strings: ['Programmer', 'Engineer', 'Gamer ', 'Designer'],
+                typeSpeed: 50,
+                smartBackspace: true,
+                backSpeed: 35,
+                loop: true,
+                showCursor: false,
+            });
+        </script>
+        <!--Wow js is for aniamtion on scroll-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+
+
+        <!--Dont forget to follow me and star the repo on github !!!!!!!-->
+</body>
+
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
             </div>
             <div class="box box2 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.37s"> <span><b>Skills</b></span>
                 <br> <span> Programming</span>
