@@ -1,4 +1,18 @@
 
+## HACKTOBERFEST IMPORTANT NOTICE
+
+#### Please make sure your are commmiting your changes to the right branch 
+#### If you PR to the wrong branch then there will be merege conflicts !!!
+For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
+
+##
+
+
+
+
+
+
+
 # Neomorphic-PortfolioTemplate
 This is a OpenSource Portfolio Template Based on Neomorphic Theme Made with pure HTML, CSS(SCSS), And A bit of Java script
 ## Screenshots
