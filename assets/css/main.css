@@ -258,8 +258,27 @@ body {
     font-size: 1.7em;
 }
 
-.about .card-wrapper .box3 ul li a:hover {
-    color: #f53f2b;
+.about .card-wrapper .box3 ul .github a:hover {
+    color: rgb(255, 254, 254);
+    background-color: rgba(44, 37, 37, 0.877);
+    box-shadow: 0px 3px 10px rgb(68, 67, 67);
+}
+.about .card-wrapper .box3 ul .linkedin a:hover {
+    color: #2867B2;
+    background-color: #daedff;
+    box-shadow: 0px 3px 10px rgb(87, 155, 223);
+}
+.about .card-wrapper .box3 ul .twitter a:hover {
+    color: #55acee;
+    background-color: #6dbaf53b;
+    box-shadow: 0px 3px 10px rgb(30, 125, 219);
+}
+.about .card-wrapper .box3 ul .gmail a:hover {
+    color: #EA4335;
+    /* background-color: #ea44351c; */
+    background-color: #da6d4c34;
+    /* box-shadow: 0px 3px 10px #e64a0cad; */
+    box-shadow: 3px 3px 10px #c4622ad3, -1px 0 .5em #f4e242b2;
 }
 
 .footer a {
