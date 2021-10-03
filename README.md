@@ -89,6 +89,12 @@ For support, email paiadithya26@gmail.com
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+
+<a href="https://github.com/adithyapaib/Neomorphic-PortfolioTemplate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=adithyapaib/Neomorphic-PortfolioTemplate" />
+</a>
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/adithyapaib/Neomorphic-PortfolioTemplate.svg?style=for-the-badge
