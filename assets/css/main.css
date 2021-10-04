@@ -330,6 +330,24 @@ body {
     margin-top: 110px;
     align-items: center;
 }
+.backToTop a {
+  position: absolute;
+  bottom: 75px; 
+  right: 30px; 
+font-size: 3rem;
+  color: rgb(0, 0, 1);
+ @media all and (max-width:500px){
+ a.button1{
+  display:block;
+  margin-bottom:1.4em;
+ }
+
+}
+}
+.backToTop a:hover {
+  opacity: 0.9;
+  color: #6bf62b;
+}
 
 .about .card-wrapper .box3 span {
   justify-self: flex-start;
