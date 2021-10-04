@@ -124,7 +124,7 @@ body {
 
 .about .title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .about .card-wrapper {
@@ -200,7 +200,7 @@ body {
   padding: 0
 }
  .project-pic {
-    width: 60vh !important; 
+    width: 40vh !important; 
     height: 35vh !important;
     border-radius: 10px !important;
     margin: 0 auto;
