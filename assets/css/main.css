@@ -303,16 +303,16 @@ body {
 }
 
 #projects .projects-header h1 {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .section-title {
-	font-size: 4rem;
-	font-weight: 300;
-	color: black;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	text-align: center;
+  font-size: 3.7rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 .section-title span {
 	color: crimson;
