@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap');
+
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Yaldevi', sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
