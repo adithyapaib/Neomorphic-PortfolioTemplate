@@ -125,7 +125,7 @@ body {
 
 .about .title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .about .card-wrapper {
@@ -201,7 +201,7 @@ body {
   padding: 0
 }
  .project-pic {
-    width: 60vh !important; 
+    width: 40vh !important; 
     height: 35vh !important;
     border-radius: 10px !important;
     margin: 0 auto;
@@ -384,6 +384,15 @@ font-size: 3rem;
 
 }
 
+.footer {
+  margin-top: 10%;
+  width: 60vw;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
+  padding: 3.5rem;
+
 .about .card-wrapper .box3 ul .github a:hover {
     color: rgb(255, 254, 254);
     background-color: rgba(44, 37, 37, 0.877);
@@ -442,6 +451,9 @@ font-size: 3rem;
 
 .footer a {
   text-decoration: none;
+
+  font-size: 1.8rem;
+  padding: 3;
   color: black;
   font-weight: 300;
   font-size: 1.5em;
