@@ -123,8 +123,8 @@ body {
 }
 
 .about .title {
-  font-weight: 600;
-  font-size: 2em;
+  font-weight: 300;
+  font-size: 4em;
 }
 
 .about .card-wrapper {
@@ -306,16 +306,17 @@ body {
 	margin-bottom: 50px;
 }
 .section-title {
-	font-size: 4rem;
-	font-weight: 300;
+	font-size: 2em;
+	font-weight: 600;
 	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+        text-transform: capitalize;
 }
 .section-title span {
-	color: crimson;
+	color: #f53f2b;
 }
 
 .about .card-wrapper .box3 {
@@ -329,6 +330,24 @@ body {
     height: 150px;
     margin-top: 110px;
     align-items: center;
+}
+.backToTop a {
+  position: absolute;
+  bottom: 75px; 
+  right: 30px; 
+font-size: 3rem;
+  color: rgb(0, 0, 1);
+ @media all and (max-width:500px){
+ a.button1{
+  display:block;
+  margin-bottom:1.4em;
+ }
+
+}
+}
+.backToTop a:hover {
+  opacity: 0.9;
+  color: #6bf62b;
 }
 
 .about .card-wrapper .box3 span {
@@ -398,6 +417,16 @@ body {
     filter: drop-shadow(0px 18px 18px rgba(240, 98, 98, 0.904));
     cursor: pointer;
     transition: all 0.3s;
+}
+
+/* Changes made in social icons hovering */
+.social_media:hover{
+    margin: 2px;
+    background-color: #f3ecec;
+    border: 2px white;
+    border-radius: 70px;
+    margin: 3px;
+    padding: 4px;
 }
 
 .footer a {
