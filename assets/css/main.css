@@ -123,8 +123,8 @@ body {
 }
 
 .about .title {
-  font-weight: 600;
-  font-size: 2em;
+  font-weight: 300;
+  font-size: 4em;
 }
 
 .about .card-wrapper {
@@ -316,7 +316,7 @@ body {
         text-transform: capitalize;
 }
 .section-title span {
-	color: crimson;
+	color: #f53f2b;
 }
 
 .about .card-wrapper .box3 {
