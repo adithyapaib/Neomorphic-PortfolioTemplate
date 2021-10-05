@@ -246,25 +246,30 @@
 				<!-- End Projects Section -->
 			</div>
 			<!-- Contact Us Form -->
-
 			<h2>Reach out to us</h2>
-			<form>
-				<div class="form-group">
-					<label for="mail">Email address</label>
-					<input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-						placeholder="Enter your email address" />
-				</div>
-				<div class="form-group">
-					<label for="first_name">Name</label>
-					<input type="text" class="form-control" id="name" placeholder="Enter your Name" />
-				</div>
-				<div class="form-group">
-					<label for="phone_number">Phone Number</label>
-					<input type="text" class="form-control" id="number" placeholder="Enter your Mobile Number"
-						style="width: 300px" />
-				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
+			<div class="form-wrapper flex-container">
+				<form class="form flex-container">
+					<div class="email">
+						<h4>Email *</h4>
+						<div class="input-container flex-container">
+							<input type="email" placeholder="Enter Your Email" name="email" required>
+						</div>
+					</div>
+					<div class="name">
+						<h4>Name *</h4>
+						<div class="input-container flex-container">
+							<input type="text" placeholder="Enter Your Name" name="name" required>
+						</div>
+					</div>
+					<div class="phone">
+						<h4>Phone Number</h4>
+						<div class="input-container flex-container">
+							<input type="text" placeholder="Enter Your Phone Number" name="phone">
+						</div>
+					</div>
+					<input type="submit" name="submit" value="Submit">
+				</form>
+			</div>
 
 			<!-- End of Form -->
 
@@ -293,6 +298,7 @@
 		</div>
 
 		<!--Dont forget to follow me and star the repo on github !!!!!!!-->
+	</div>
 </body>
 
 <!--TypedJs -->
