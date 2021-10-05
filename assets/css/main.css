@@ -430,6 +430,9 @@ font-size: 3rem;
     padding: 4px;
 }
 
+.footer {
+  margin-top: 1.5em;
+}
 .footer a {
     text-decoration: none;
     color: black;
@@ -477,3 +480,19 @@ font-size: 3rem;
 
 }
 
+
+.back_to_top{
+  margin: 1em;
+}
+.back_to_top a {
+  padding: 0.5em 1em;
+  background-color: #ff1900;
+  border-radius: 30px;
+  color: #fcfcfc;
+  box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff,
+    0.15625vw 0.15625vw 0.19625vw #00000062;
+  transition: background 3s, border-radius 300ms 100ms;
+}
+.back_to_top a:hover {
+  color: #fcfcfc;
+}
