@@ -1,12 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   max-width: 98vw !important;
 }
 
+#btnScrollToTop {
+    position: fixed;
+    right: 60px;
+    bottom: 77px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f53f2b;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#btnScrollToTop:active {
+    background: #eb3241;
+    filter: drop-shadow(5px 18px 18px rgba(236, 66, 66, 0.904));
+}
 body {
   background: whitesmoke !important;
   width: 99vw;
@@ -208,7 +225,7 @@ body {
 }
 
 .about .card-wrapper .box {
-  width: 450px;
+  width: 520px !important;
   max-width: 90vw;
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
@@ -244,15 +261,15 @@ body {
   padding: 0.8em 1.8em;
   outline: none;
   cursor: pointer;
-  border-radius: 6px;
   border: none;
   background: #f53f2b;
   color: #fcfcfc;
-  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
-          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+  -webkit-box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
+          box-shadow: -0.15625vw -0.15625vw 0.65625vw #ffffff, 0.15625vw 0.15625vw 0.19625vw #00000062;
   margin-bottom: 0.5208333333333334vw;
-  -webkit-transition: 3s background;
-  transition: 3s background;
+  border-radius: 6px;
+  -webkit-transition: background 3s, border-radius 300ms 100ms;
+  transition: background 3s, border-radius 300ms 100ms;
 }
 
 .about .card-wrapper .box1 .resume button:hover {
@@ -341,7 +358,6 @@ body {
 
 .about .card-wrapper .box3 ul {
   width: 100%;
-  margin-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,11 +385,27 @@ body {
   color: #f53f2b;
 }
 
+.section-title {
+  text-align: center;
+}
+
+.box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .footer {
   margin-top: 10%;
   width: 95vw;
   max-width: 100%;
   text-align: center;
-  margin-bottom: -50px;
+  margin-bottom: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */
