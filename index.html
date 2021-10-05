@@ -24,6 +24,9 @@
     <!--For Css Animations in the site -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--Enter your Name here and Speacializations so that ur site will be easily available on search engines-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--For the best material icons -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Adithya Pai | Web designer</title>
 </head>
 
@@ -140,6 +143,10 @@
                     </ul>
                 </ul>
             </div>
+            <!--Scroll back to top button-->
+            <button id="btnScrollToTop">
+                <i class="material-icons">arrow_upward</i>
+            </button>
             <div class="box box3 animate__animated animate__slideInRight wow" data-wow-duration="1s" data-wow-delay="0.75s">
                 <div>
                     <ul class="Social-links">
@@ -150,28 +157,39 @@
                         <li class="twitter"><a href="https://twitter.com/adithyapaib" target="_blank"><i class="fab fa-twitter  iconn"></i></a></li>
                     </ul>
                     <div class="footer">Made with ❤️ by <a  href="https://adithyapai.com">Adithya Pai</a></div>
-            </div> 
+                </div> 
 
-        <!--TypedJs -->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-        <script>
-            //Enter your specilizations here
-            var typed = new Typed("#typed", {
-                strings: ['Programmer', 'Engineer', 'Gamer ', 'Designer'],
-                typeSpeed: 50,
-                smartBackspace: true,
-                backSpeed: 35,
-                loop: true,
-                showCursor: false,
-            });
-        </script>
-        <!--Wow js is for aniamtion on scroll-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
-        <script>
-            new WOW().init();
-        </script>
-
-
+                <!--TypedJs -->
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    //Enter your specilizations here
+                    var typed = new Typed("#typed", {
+                        strings: ['Programmer', 'Engineer', 'Gamer ', 'Designer'],
+                        typeSpeed: 50,
+                        smartBackspace: true,
+                        backSpeed: 35,
+                        loop: true,
+                        showCursor: false,
+                    });
+                </script>
+                <!--Wow js is for aniamtion on scroll-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+                <script>
+                    new WOW().init();
+                </script>
+                <!-- Javascript for scrolling to top page -->
+                <script>
+                    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+                    btnScrollToTop.addEventListener("click", function() {
+                        window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth"
+                        });
+                    });
+                </script>
+            </div>
+   
 
         <!--Dont forget to follow me and star the repo on github !!!!!!!-->
 </body>
