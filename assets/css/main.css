@@ -385,13 +385,21 @@ font-size: 3rem;
 }
 
 .footer {
-  margin-top: 10%;
   width: 60vw;
   max-width: 100%;
   text-align: center;
   margin-bottom: 1.2rem;
   box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
   padding: 3.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
 
 .about .card-wrapper .box3 ul .github a:hover {
     color: rgb(255, 254, 254);
@@ -431,7 +439,7 @@ font-size: 3rem;
 }
 
 .footer {
-  margin-top: 1.5em;
+  margin-top: 3.5em;
 }
 .footer a {
     text-decoration: none;
