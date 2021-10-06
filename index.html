@@ -210,7 +210,137 @@
                             </form>
         
                         </div>
-                        <div class="box3 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.37s"> <h2><b>Social Links</b></h2>                            <ul>
+                        <div class="box3 animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.37s"> <h2><b>Social Links</b></h2>
+                          <ul>
+               </ul>
+            </div>
+             <!-- Projects Section -->
+            <section id="projects ">
+            <div class="projects container ">
+            <div class="projects-header ">
+            <h1 class="section-title ">Recent <span>Projects</span></h1>
+            </div>
+            <div class="card-wrapper ">
+             <div class="box box1 animate__animated animate__slideInLeft wow " data-wow-duration="1s " data-wow-delay="0.12s "><span> <b>Project Name</b></span>
+            <!--Add a SQUARE IMAGE OF YOURS FOR BEST APPEARENCE (1:1)-->
+            <img class="project-pic " src="assets/img/project.jpg " alt=" ">
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>          
+                <div class="resume "><button>Know More</button></div>
+            </div>
+        <div class="box box1 animate__animated animate__slideInRight wow " data-wow-duration="1s " data-wow-delay="0.37s ">
+            <span> <b>Project Name</b></span>
+            <img class="project-pic " src="assets/img/project.jpg " alt=" ">
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>          
+                <div class="resume "><button>Know More</button></div>
+        </div>
+        <div class="box box1 animate__animated animate__slideInUp wow " data-wow-duration="1s " data-wow-delay="0.12s "><span> <b>Project Name</b></span>
+            <!--Add a SQUARE IMAGE OF YOURS FOR BEST APPEARENCE (1:1)-->
+            <img class="project-pic " src="assets/img/project.jpg " alt=" ">
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>          
+                <div class="resume "><button>Know More</button></div>
+        </div>
+        <div class="box box1 animate__animated animate__slideInUp wow " data-wow-duration="1s " data-wow-delay="0.37s ">
+            <span> <b>Project Name</b></span>
+            <img class="project-pic " src="assets/img/project.jpg " alt=" ">
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>          
+                <div class="resume "><button>Know More</button></div>
+        </div>
+      
+    </div>
+  </section>
+  <!-- End Projects Section -->
+            
+
+                <!--TypedJs -->
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    //Enter your specilizations here
+                    var typed = new Typed("#typed", {
+                        strings: ['Programmer', 'Engineer', 'Gamer ', 'Designer'],
+                        typeSpeed: 0.5,
+                        smartBackspace: true,
+                        backSpeed: 0.1,
+                        loop: true,
+                        showCursor: false,
+                    });
+                </script>
+                <!--Wow js is for aniamtion on scroll-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+                <script>
+                    new WOW().init();
+                </script>
+                <!-- Javascript for scrolling to top page -->
+                <script>
+                    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+                    btnScrollToTop.addEventListener("click", function() {
+                        window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth"
+                        });
+                    });
+                </script>
+            </div>
+                    <div class="box box3 animate__animated animate__slideInRight wow" data-wow-duration="1s" data-wow-delay="0.75s">
+                        <!-- <h2>Contact Me</h2> -->
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="mail">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="first_name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="text" pattern="^\d{10}$" class="form-control" id="number" placeholder="Enter your Mobile Number" style="width: 300px"/>
+                            </div>
+                            <button type="submit" id="contact-btn" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <script>
+                        const contactBtn = document.querySelector("#contact-btn");
+                        const email = document.querySelector("#email");
+                        const name = document.querySelector("#name");
+                        const number = document.querySelector("#number");
+                        const form = document.querySelector("#contact-form");
+
+                        contactBtn.addEventListener("click", (e) => {
+                            e.preventDefault();
+                            if(email.value === "" || name.value === "" || number.value === ""){
+                                alert("Please fill all the details!!");
+                            }
+                            else if(form.checkValidity()){
+                                alert("Your details are successfully submitted!!");
+                                email.value = "";
+                                name.value = "";
+                                number.value = "";
+                            }
+                            else{
+                                alert("Please see that your mail and phone number are correct!!");
+                            }
+                        });
+                    </script>
+
+                    <!-- <div class="box box3 animate__animated animate__slideInRight wow" data-wow-duration="1s" data-wow-delay="0.75s">
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/adithyapaib" target="_blank"><i class="fab fa-github iconn"></i></a>
+                                </li>
                                 <li>
                                     <a href="https://github.com/adithyapaib" target="_blank"><i class="fab fa-github iconn"></i
 							></a>
