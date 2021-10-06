@@ -4,7 +4,10 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  max-width: 98vw !important;
+  max-width: 600px !important;
+  margin: auto;
+  box-sizing: border-box;
+  
 }
 
 #btnScrollToTop {
@@ -79,6 +82,7 @@ body {
           flex-direction: column;
   padding: 15px;
   text-align: center;
+  
 }
 
 .landing .img {
@@ -327,6 +331,7 @@ body {
 .about .card-wrapper .box2 .mainlist .sublist {
   list-style: none;
   margin-left: 20px;
+  padding: 1rem;
 }
 
 .about .card-wrapper .box2 i {
@@ -408,4 +413,47 @@ body {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+
+
+
+.project-pic{
+  border-radius: 50px !important;
+background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff !important;
+
+
+             width: 25vh !important;
+             height: 25vh !important;
+             /* margin: 0 auto !important; */
+             /* border-radius: 30% !important; */
+             /* -webkit-box-shadow: -10px -10px 20px #b8b7b7, 10px 10px 20px #0000004b !important; */
+             /* box-shadow: -10px -10px 20px #b8b7b7, 10px 10px 20px #0000004b !important; */
+             /* background: #000 !important; */
+             padding: 0.25em !important;
+}
+
+
+.about .card-wrapper .box1 img {
+  width: 25vh !important;
+  height: 25vh !important;
+  margin: 0 auto !important;
+  border-radius: 11% !important;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.neo{
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+
+
 /*# sourceMappingURL=main.css.map */
