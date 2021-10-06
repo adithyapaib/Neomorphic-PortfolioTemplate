@@ -29,6 +29,7 @@ body {
   width: 99vw;
   max-width: 100% !important;
   cursor: url("https://cdn.custom-cursor.com/db/6102/32/color-lush-lava-cursor.png"), auto;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -384,7 +385,12 @@ body {
 .about .card-wrapper .box3 ul li a:hover {
   color: #f53f2b;
 }
-
+.about-icons a{
+  text-decoration: none;
+  font-size: xxx-large;
+  color: black;
+  padding: 1.1rem;
+}
 .section-title {
   text-align: center;
 }
@@ -401,11 +407,36 @@ body {
           align-items: center;
 }
 
+.contact-me{
+  margin-top: 3rem;
+}
+.contact-me h2{
+  margin-bottom: 1.5rem;
+}
+.contact-me button{
+  margin-top: 2rem;
+  width: 50vw;
+  font-size: larger;
+  background: #24A0ED;
+  transform: scale(1);
+}
+.contact-me button:active{
+  transform: scale(1.1);
+}
 .footer {
   margin-top: 10%;
   width: 95vw;
   max-width: 100%;
   text-align: center;
   margin-bottom: 1.2rem;
+}
+.back_to_top{
+  display: flex;
+  justify-content: right;
+}
+.back_to_top a{
+  color: black;
+  font-size: xx-large;
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
