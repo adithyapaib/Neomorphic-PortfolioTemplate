@@ -7,6 +7,23 @@
   max-width: 98vw !important;
 }
 
+#btnScrollToTop {
+    position: fixed;
+    right: 60px;
+    bottom: 77px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #f53f2b;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#btnScrollToTop:active {
+    background: #eb3241;
+    filter: drop-shadow(5px 18px 18px rgba(236, 66, 66, 0.904));
+}
 body {
   background: whitesmoke !important;
   width: 99vw;
