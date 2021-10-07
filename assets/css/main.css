@@ -200,6 +200,9 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.box3 h2{
+  margin-top: 5vh;
+}
 
 .about .title {
   font-weight: 600;
@@ -385,6 +388,7 @@ body {
 .about .card-wrapper .box3 ul li a:hover {
   color: #f53f2b;
 }
+
 .about-icons a{
   text-decoration: none;
   font-size: xxx-large;
@@ -423,6 +427,7 @@ body {
 .contact-me button:active{
   transform: scale(1.1);
 }
+
 .footer {
   margin-top: 10%;
   width: 95vw;
