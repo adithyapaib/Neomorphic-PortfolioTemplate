@@ -1,0 +1,7 @@
+.links_align{
+  display: flex;
+  margin-top: 20px;
+  /*align-items: center;*/
+  justify-content: space-between;
+  width: 17vw;
+}
