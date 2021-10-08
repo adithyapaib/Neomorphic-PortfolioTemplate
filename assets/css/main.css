@@ -423,6 +423,9 @@ body {
           align-items: center;
 }
 
+.social:hover {
+  color: #f53f2b;
+}
 
 .footer {
   margin-top: 10%;
