@@ -426,6 +426,9 @@ body {
 }
 .contact-me button:active{
   transform: scale(1.1);
+
+.social:hover {
+  color: #f53f2b;
 }
 
 .footer {
