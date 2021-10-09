@@ -426,7 +426,17 @@ body {
 .social:hover {
   color: #f53f2b;
 }
-
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .footer {
   margin-top: 10%;
   width: 95vw;
