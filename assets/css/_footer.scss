@@ -1,4 +1,55 @@
 .footer {
+    
+    /* footer section styling */
+footer {
+	background: #111;
+	padding: 15px 23px;
+	color: #fff;
+	text-align: center;
+}
+footer span a {
+	color: rgb(181, 0, 252);
+	text-decoration: none;
+}
+footer span a:hover {
+	text-decoration: none;
+}
+footer span .social a {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	text-align: center;
+	padding-top: 0.3cm;
+	background: rgb(181, 0, 252);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+footer span .social a .fa {
+	line-height: 46px;
+}
+
+footer span .social a:nth-child(1):hover {
+	color: #26a4f2;
+	box-shadow: 0 0 15px #1da1f2;
+	text-shadow: 0 0 15px #1da1f2;
+}
+footer span .social a:nth-child(2):hover {
+	color: #e23670;
+	box-shadow: 0 0 15px #e1306c;
+	text-shadow: 0 0 15px #e1306c;
+}
+footer span .social a:nth-child(3):hover {
+	color: #2a6cbb;
+	box-shadow: 0 0 15px #2867b2;
+	text-shadow: 0 0 15px #2867b2;
+}
+footer span .social a:nth-child(4):hover {
+	color: #fff;
+	box-shadow: 0 0 15px #fff;
+	text-shadow: 0 0 15px #fff;
+}
     margin-top: 10%;
     width: 95vw;
     max-width: 100%;

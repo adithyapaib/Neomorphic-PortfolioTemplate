@@ -2,7 +2,7 @@
 ## HACKTOBERFEST IMPORTANT NOTICE
 
 #### Please make sure your are commmiting your changes to the right branch 
-#### If you PR to the wrong branch then there will be merege conflicts !!!
+#### If you PR to the wrong branch then there will be merge conflicts !!!
 For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
 
 ##
@@ -106,7 +106,6 @@ For support, email paiadithya26@gmail.com
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
  
