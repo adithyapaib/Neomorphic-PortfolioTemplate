@@ -29,6 +29,7 @@ body {
   width: 99vw;
   max-width: 100% !important;
   cursor: url("https://cdn.custom-cursor.com/db/6102/32/color-lush-lava-cursor.png"), auto;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -388,25 +389,12 @@ body {
   color: #f53f2b;
 }
 
-.project-pic {
-  width: 60% !important;
-  border-radius: 10px !important;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  height: 100px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+.about-icons a{
+  text-decoration: none;
+  font-size: xxx-large;
+  color: black;
+  padding: 1.1rem;
 }
-
-.project-pic:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);}
 .section-title {
   text-align: center;
 }
@@ -422,6 +410,22 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.contact-me{
+  margin-top: 3rem;
+}
+.contact-me h2{
+  margin-bottom: 1.5rem;
+}
+.contact-me button{
+  margin-top: 2rem;
+  width: 50vw;
+  font-size: larger;
+  background: #24A0ED;
+  transform: scale(1);
+}
+.contact-me button:active{
+  transform: scale(1.1);
 
 .social:hover {
   color: #f53f2b;
@@ -444,10 +448,16 @@ body {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+.back_to_top{
+  display: flex;
+  justify-content: right;
+}
+.back_to_top a{
+  color: black;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
-
-
-
 .connect {
   display: flex;
   flex-direction: column;
@@ -488,26 +498,4 @@ body {
   padding: 5px;
   font-size: 1.2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
