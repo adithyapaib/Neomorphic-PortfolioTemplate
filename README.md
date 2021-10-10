@@ -2,7 +2,7 @@
 ## HACKTOBERFEST IMPORTANT NOTICE
 
 #### Please make sure your are commmiting your changes to the right branch 
-#### If you PR to the wrong branch then there will be merege conflicts !!!
+#### If you PR to the wrong branch then there will be merge conflicts !!!
 For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
 
 ##
