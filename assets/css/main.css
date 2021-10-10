@@ -430,7 +430,17 @@ body {
 .social:hover {
   color: #f53f2b;
 }
-
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .footer {
   margin-top: 10%;
   width: 95vw;
@@ -448,3 +458,44 @@ body {
   margin-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
+.connect {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+
+}
+
+.ed-pic{
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 10%;
+  
+  width: 80%;
+ justify-content: center;
+ box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 .5em #aaa78cb2;
+ filter: drop-shadow(0px 18px 18px rgba(183, 195, 204, 0.966));
+  
+}
+.cont{
+  margin-left: 10%;
+}
+@media only screen and (max-width: 763px) {
+  .cont{
+   margin: 10%;
+  }
+  
+}
+.blog-img{
+  box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 .5em #aaa78cb2;
+  filter: drop-shadow(0px 18px 18px rgba(187, 245, 169, 0.966));
+}
+.blog-para{
+  box-sizing: content-box;
+  border: 1px solid rgb(85, 219, 224);
+  box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 .5em #aaa78cb2;
+  filter: drop-shadow(0px 18px 18px rgba(187, 245, 169, 0.966));
+  font-family: Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
