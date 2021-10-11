@@ -397,6 +397,17 @@ body {
 }
 .section-title {
   text-align: center;
+
+  margin-bottom: 1.2rem;
+  box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
+  padding: 3.5rem;
+}
+
+.about .card-wrapper .box3 ul .github a:hover {
+    color: rgb(255, 254, 254);
+    background-color: rgba(44, 37, 37, 0.877);
+    box-shadow: 0px 3px 10px rgb(68, 67, 67);
+
 }
 
 .box3 {
@@ -465,6 +476,21 @@ body {
 
 }
 
+
+#btnScrollToTop {
+  position: sticky;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff3b3b;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 10px blueviolet;
+  border: none;
+}
+
 .ed-pic{
   height: 100%;
   box-sizing: border-box;
@@ -498,4 +524,3 @@ body {
   padding: 5px;
   font-size: 1.2rem;
 }
-
