@@ -66,6 +66,33 @@ https://adithyapaib.github.io/Neomorphic-PortfolioTemplate/
 | Text | ![#0000004b](https://via.placeholder.com/10/0000004b?text=+) #0000004b |
 | Main Background | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
+## New to Contributing Open Source?
+
+No worries! We'll walk you through the steps.
+
+Open your terminal and type the following command to clone this repository into your code editor:
+
+```sh
+git clone https://github.com/adithyapaib/Neomorphic-PortfolioTemplate.git
+```
+
+Next, make the changes you want in the code.
+
+Once finished, you can do the following to add, commit, and push your code to your fork!
+
+```sh
+git add .
+git commit -m "My contribution"
+git push
+```
+
+Then, navigate over to your github fork page and click the **"Compare & pull request"** button
+
+![Pull request button](https://i.ibb.co/0ZtpmqR/image.png)
+
+When prompted, type up a ***clear and well-written*** pull request title and message. This will make it much easier to review your code!
+
+And again, thanks for contributing!
   
 # Hi, I'm Adithya! 👋
 
