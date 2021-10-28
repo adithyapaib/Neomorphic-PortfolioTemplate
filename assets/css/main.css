@@ -211,7 +211,9 @@ body {
   flex-wrap: wrap;
 }
 .box3 h2 {
-  margin-top: 5vh;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  color: #666464;
 }
 
 .about .title {
@@ -463,6 +465,10 @@ body {
   color: #f53f2b;
   background-color: transparent;
   border: 2px solid #f53f2b;
+  transform: translateY(2px);
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 14px 14px 28px #c1c1c1,inset -14px -14px 28px #ffffff;
 }
 .fab {
   width: 50px;
@@ -475,17 +481,50 @@ body {
   color: #ffffff;
   font-size: 25px;
   margin: 0 10px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  10px 10px 22px #b3b3b3,-10px -10px 22px #e6e3e3;
+  transition: transform 0.5s;
 }
 #contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: left;
 }
 .form-group {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+input[type='text'],input[type='email']{
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: -10px -10px 20px rgba(255,255,255,0.8),10px 10px 20px rgba(0,0,0,0.12);
+  border-radius: 50px;
+  padding:30px;
+  background: transparent;
+  margin-bottom: 1rem;
+}
+input[type='text']:focus,input[type='email']:focus{
+  box-shadow:inset -10px -10px 20px rgba(255,255,255,0.8),inset 10px 10px 20px rgba(0,0,0,0.12);
+  background: transparent;
+}
+.btn{
+  box-shadow: -10px -10px 20px rgba(255,255,255,0.8),10px 10px 20px rgba(0,0,0,0.12);
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #666464;
+  border-radius: 50px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.btn:hover{
+  background: #ff3b3b;
+  color: white;
 }
 footer {
   background-color: #dddddd;
