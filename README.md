@@ -2,7 +2,7 @@
 ## HACKTOBERFEST IMPORTANT NOTICE
 
 #### Please make sure your are commmiting your changes to the right branch 
-#### If you PR to the wrong branch then there will be merege conflicts !!!
+#### If you PR to the wrong branch then there will be merge conflicts !!!
 For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
 
 ##
@@ -16,6 +16,9 @@ For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
 # Neomorphic-PortfolioTemplate
 
 This is a OpenSource Portfolio Template Based on Neomorphic Theme. 
+
+# What is Neomorphic?
+Neomorphism is a relatively new design trend and a term that’s gotten a good amount of buzz lately. <br>It’s aesthetic is marked by minimal and real-looking UI that’s sort of a new take on skeuomorphism — hence the name. <br> It got its name in a UX Collective post from December 2019, and since then, various design and development communities have been actively discussing the trend, usually with differing opinions. <br> Chris poked fun at it on Twitter. Adam Giebl created an online generator for it. <br> Developers, designers, and UX specialists are weighing in on the topic of aesthetics, usability, accessibility, and practicality of this design trend.
 
 Made with:
 
@@ -66,6 +69,33 @@ https://adithyapaib.github.io/Neomorphic-PortfolioTemplate/
 | Text | ![#0000004b](https://via.placeholder.com/10/0000004b?text=+) #0000004b |
 | Main Background | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
+## New to Contributing Open Source?
+
+No worries! We'll walk you through the steps.
+
+Open your terminal and type the following command to clone this repository into your code editor:
+
+```sh
+git clone https://github.com/adithyapaib/Neomorphic-PortfolioTemplate.git
+```
+
+Next, make the changes you want in the code.
+
+Once finished, you can do the following to add, commit, and push your code to your fork!
+
+```sh
+git add .
+git commit -m "My contribution"
+git push
+```
+
+Then, navigate over to your github fork page and click the **"Compare & pull request"** button
+
+![Pull request button](https://i.ibb.co/0ZtpmqR/image.png)
+
+When prompted, type up a ***clear and well-written*** pull request title and message. This will make it much easier to review your code!
+
+And again, thanks for contributing!
   
 # Hi, I'm Adithya! 👋
 
