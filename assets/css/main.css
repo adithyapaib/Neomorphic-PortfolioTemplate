@@ -302,6 +302,12 @@ body {
   border-radius: 30px;
 }
 
+.about .card-wrapper .box1 span {
+  margin-top: 1.5rem;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
 .about .card-wrapper .box1 img {
   width: 25vh;
   height: 25vh;
