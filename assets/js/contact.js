@@ -39,3 +39,4 @@ new WOW().init();
                                 alert("Please see that your mail and phone number are correct!!");
                             }
                         });
+          new WOW().init();
