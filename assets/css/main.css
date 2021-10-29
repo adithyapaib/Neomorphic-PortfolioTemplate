@@ -8,6 +8,12 @@
   scroll-behavior: smooth;
 }
 
+.nav-spacing{
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+
 #btnScrollToTop {
   position: fixed;
   right: 60px;
