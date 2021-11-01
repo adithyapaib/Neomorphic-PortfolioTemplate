@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -6,6 +7,8 @@
   scroll-behavior: smooth;
   max-width: 98vw !important;
   scroll-behavior: smooth;
+  background: image("./img/white_bg.jpg");                /*www.freepik.com/vectors/background">Background vector created by freepik - www.freepik.com*/
+
 }
 
 .nav-spacing{
@@ -13,7 +16,15 @@
   padding-left: 2rem !important;
 }
 
+#education a{
+  color: #3B3B3B;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 
+}
+.projects-header .section-title {
+  color: black;
+}
 #btnScrollToTop {
   position: fixed;
   right: 60px;
@@ -32,7 +43,8 @@
   filter: drop-shadow(5px 18px 18px rgba(236, 66, 66, 0.904));
 }
 body {
-  background: whitesmoke !important;
+  
+  background-image: url('../img/white_bg.jpg');
   width: 99vw;
   max-width: 100% !important;
   cursor: url("https://cdn.custom-cursor.com/db/6102/32/color-lush-lava-cursor.png"),
@@ -182,7 +194,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 3vh 2vh 3vh 2vh;
-  min-height: 20vh;
+  min-height: 10vh;
   border-radius: 1em;
   -webkit-box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c,
     -5px -5px 30px #ffffffbb, inset -5px -5px 10px #0000000c;
@@ -472,11 +484,12 @@ body {
 .social a {
   text-decoration: none;
 }
+
 .fab:hover {
   color: #f53f2b;
   background-color: transparent;
   border: 2px solid #f53f2b;
-  transform: translateY(2px);
+  transform: rotate(360deg) scale(1.2);
   border-radius: 50px;
   background: #e0e0e0;
   box-shadow: inset 14px 14px 28px #c1c1c1,inset -14px -14px 28px #ffffff;
@@ -494,8 +507,8 @@ body {
   margin: 0 10px;
   border-radius: 50px;
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  10px 10px 22px #b3b3b3,-10px -10px 22px #e6e3e3;
-  transition: transform 0.5s;
+  box-shadow:  0px 0px 22px #b3b3b3,-10px -10px 22px #e6e3e3;
+  transition: transform 0.9s;
 }
 #contact-form {
   display: flex;
@@ -610,16 +623,19 @@ footer .person1 {
     margin: 10%;
   }
 }
+
 .blog-img {
-  box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 0.5em #aaa78cb2;
-  filter: drop-shadow(0px 18px 18px rgba(187, 245, 169, 0.966));
+  box-shadow: 0px 0px 15px #b8b7b7;
+  border: 7px solid #ffff;
+ 
 }
 .blog-para {
   box-sizing: content-box;
-  border: 1px solid rgb(85, 219, 224);
+  border: 4px solid #ffff;
+  border-radius: 10px;
   box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 0.5em #aaa78cb2;
   filter: drop-shadow(0px 18px 18px rgba(187, 245, 169, 0.966));
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Roboto', sans-serif;
   padding: 5px;
   font-size: 1.2rem;
 }
@@ -642,4 +658,5 @@ footer .person1 {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+
 }
