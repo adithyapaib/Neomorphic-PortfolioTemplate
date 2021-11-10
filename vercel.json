@@ -10,7 +10,5 @@
         "dest": "api/user.js"
       }
      
-    ],
-    "use":"@vercel/node@latest","src":"api/user.js","config":{"zeroConfig":true}
-    
+    ]
   }
