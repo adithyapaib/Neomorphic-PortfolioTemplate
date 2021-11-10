@@ -1,0 +1,20 @@
+{
+  "name": "codesh",
+  "version": "1.0.0",
+  "description": "A code sharing platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "vercel dev"
+  },
+  "keywords": [
+    "codeshare"
+  ],
+  "author": "Adithya Pai B",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}

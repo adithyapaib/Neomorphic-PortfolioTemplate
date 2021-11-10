@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/api/index.js"
+      },
+      {
+        "src": "/user/.*",
+        "dest": "api/user.js"
+      }
+     
+    ],
+    "use":"@vercel/node@latest","src":"api/user.js","config":{"zeroConfig":true}
+    
+  }
