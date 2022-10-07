@@ -18,7 +18,7 @@ For any Queries pls reach me via https://www.linkedin.com/in/adithyapaib/
 This is a OpenSource Portfolio Template Based on Neomorphic Theme. 
 
 # What is Neomorphic?
-Neomorphism is a relatively new design trend and a term that’s gotten a good amount of buzz lately. <br>It’s aesthetic is marked by minimal and real-looking UI that’s sort of a new take on skeuomorphism — hence the name. <br> It got its name in a UX Collective post from December 2019, and since then, various design and development communities have been actively discussing the trend, usually with differing opinions. <br> Chris poked fun at it on Twitter. Adam Giebl created an online generator for it. <br> Developers, designers, and UX specialists are weighing in on the topic of aesthetics, usability, accessibility, and practicality of this design trend.
+Neomorphism is a relatively new design movement and a phrase that has just gained popularity. <br> Its aesthetic is defined by minimal and realistic-looking UI, which is a new twist on skeuomorphism. <br> It got its name in a UX Collective post from December 2019, and since then, various design and development communities have been actively discussing the trend, usually with differing opinions. <br> Chris poked fun at it on Twitter. Adam Giebl created an online generator for it. <br> Developers, designers, and UX specialists are weighing in on the topic of aesthetics, usability, accessibility, and practicality of this design trend.
 
 Made with:
 
