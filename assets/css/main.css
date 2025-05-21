@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -7,24 +8,27 @@
   scroll-behavior: smooth;
   max-width: 98vw !important;
   scroll-behavior: smooth;
-  background: image("./img/white_bg.jpg");                /*www.freepik.com/vectors/background">Background vector created by freepik - www.freepik.com*/
+  background: image("./img/white_bg.jpg");
+  /*www.freepik.com/vectors/background">Background vector created by freepik - www.freepik.com*/
 
 }
 
-.nav-spacing{
+.nav-spacing {
   padding-right: 2rem !important;
   padding-left: 2rem !important;
 }
 
-#education a{
+#education a {
   color: #3B3B3B;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 
 }
+
 .projects-header .section-title {
   color: black;
 }
+
 #btnScrollToTop {
   position: fixed;
   right: 60px;
@@ -42,8 +46,9 @@
   background: #eb3241;
   filter: drop-shadow(5px 18px 18px rgba(236, 66, 66, 0.904));
 }
+
 body {
-  
+
   background-image: url('../img/white_bg.jpg');
   width: 99vw;
   max-width: 100% !important;
@@ -82,6 +87,7 @@ body {
   max-width: 50px;
   height: 50px;
 }
+
 .landing {
   margin: 0;
   padding: 0;
@@ -138,15 +144,18 @@ body {
     -webkit-box-shadow: -10px -10px 15px #dddada, inset 10px 10px 4px #00000010;
     box-shadow: -10px -10px 15px #dddada, inset 10px 10px 4px #00000010;
   }
+
   50% {
     border-radius: 40%;
     -webkit-box-shadow: 10px 10px 25px #f53f2b63,
       inset -10px -10px 4px #00000010;
     box-shadow: 10px 10px 25px #f53f2b63, inset -10px -10px 4px #00000010;
   }
+
   80% {
     border-radius: 30%;
   }
+
   100% {
     border-radius: 100%;
     -webkit-box-shadow: 10px 10px 15px #dddada, inset -10px -10px 4px #00000010;
@@ -160,15 +169,18 @@ body {
     -webkit-box-shadow: -10px -10px 15px #dddada, inset 10px 10px 4px #00000010;
     box-shadow: -10px -10px 15px #dddada, inset 10px 10px 4px #00000010;
   }
+
   50% {
     border-radius: 40%;
     -webkit-box-shadow: 10px 10px 25px #f53f2b63,
       inset -10px -10px 4px #00000010;
     box-shadow: 10px 10px 25px #f53f2b63, inset -10px -10px 4px #00000010;
   }
+
   80% {
     border-radius: 30%;
   }
+
   100% {
     border-radius: 100%;
     -webkit-box-shadow: 10px 10px 15px #dddada, inset -10px -10px 4px #00000010;
@@ -228,6 +240,7 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
 .box3 h2 {
   text-transform: uppercase;
   margin-bottom: 3rem;
@@ -319,6 +332,7 @@ body {
   margin-bottom: 12px;
   font-weight: bold;
 }
+
 .about .card-wrapper .box1 img {
   width: 25vh;
   height: 25vh;
@@ -432,6 +446,7 @@ body {
   color: black;
   padding: 1.1rem;
 }
+
 .section-title {
   text-align: center;
 
@@ -461,9 +476,11 @@ body {
 .contact-me {
   margin-top: 3rem;
 }
+
 .contact-me h2 {
   margin-bottom: 1.5rem;
 }
+
 .contact-me button {
   margin-top: 2rem;
   width: 50vw;
@@ -471,6 +488,7 @@ body {
   background: #24a0ed;
   transform: scale(1);
 }
+
 .contact-me button:active {
   transform: scale(1.1);
 }
@@ -481,6 +499,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .social a {
   text-decoration: none;
 }
@@ -492,8 +511,9 @@ body {
   transform: rotate(360deg) scale(1.2);
   border-radius: 50px;
   background: #e0e0e0;
-  box-shadow: inset 14px 14px 28px #c1c1c1,inset -14px -14px 28px #ffffff;
+  box-shadow: inset 14px 14px 28px #c1c1c1, inset -14px -14px 28px #ffffff;
 }
+
 .fab {
   width: 50px;
   height: 50px;
@@ -507,36 +527,70 @@ body {
   margin: 0 10px;
   border-radius: 50px;
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  0px 0px 22px #b3b3b3,-10px -10px 22px #e6e3e3;
+  box-shadow: 0px 0px 22px #b3b3b3, -10px -10px 22px #e6e3e3;
   transition: transform 0.9s;
 }
+
+.fas:hover {
+  color: #f53f2b;
+  background-color: transparent;
+  border: 2px solid #f53f2b;
+  transform: rotate(360deg) scale(1.2);
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 14px 14px 28px #c1c1c1, inset -14px -14px 28px #ffffff;
+}
+
+.fas {
+  width: 50px;
+  height: 50px;
+  background-color: #f53f2b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0 10px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 0px 0px 22px #b3b3b3, -10px -10px 22px #e6e3e3;
+  transition: transform 0.9s;
+}
+
 #contact-form {
   display: flex;
   flex-direction: column;
   align-content: left;
 }
+
 .form-group {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-input[type='text'],input[type='email']{
+
+input[type='text'],
+input[type='email'] {
   width: 100%;
   border: none;
   outline: none;
-  box-shadow: -10px -10px 20px rgba(255,255,255,0.8),10px 10px 20px rgba(0,0,0,0.12);
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.8), 10px 10px 20px rgba(0, 0, 0, 0.12);
   border-radius: 50px;
-  padding:30px;
+  padding: 30px;
   background: transparent;
   margin-bottom: 1rem;
 }
-input[type='text']:focus,input[type='email']:focus{
-  box-shadow:inset -10px -10px 20px rgba(255,255,255,0.8),inset 10px 10px 20px rgba(0,0,0,0.12);
+
+input[type='text']:focus,
+input[type='email']:focus {
+  box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 0.8), inset 10px 10px 20px rgba(0, 0, 0, 0.12);
   background: transparent;
 }
-.btn{
-  box-shadow: -10px -10px 20px rgba(255,255,255,0.8),10px 10px 20px rgba(0,0,0,0.12);
+
+.btn {
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.8), 10px 10px 20px rgba(0, 0, 0, 0.12);
   background: transparent;
   outline: none;
   border: none;
@@ -546,10 +600,12 @@ input[type='text']:focus,input[type='email']:focus{
   text-transform: uppercase;
   font-size: 1.2rem;
 }
-.btn:hover{
+
+.btn:hover {
   background: #ff3b3b;
   color: white;
 }
+
 footer {
   background-color: #dddddd;
   width: 100%;
@@ -561,9 +617,11 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
 footer .person1 {
   margin-top: 30px;
 }
+
 .footer {
   margin-top: 20px;
   width: 95vw;
@@ -571,6 +629,7 @@ footer .person1 {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+
 .back_to_top {
   width: 50px;
   height: 50px;
@@ -580,10 +639,12 @@ footer .person1 {
   align-items: center;
   justify-content: center;
 }
+
 .back_to_top a {
   color: #ffffff;
   font-size: xx-large;
 }
+
 /*# sourceMappingURL=main.css.map */
 .connect {
   display: flex;
@@ -615,9 +676,11 @@ footer .person1 {
   box-shadow: 3px 3px 10px #dfd5cfd3, -1px 0 0.5em #aaa78cb2;
   filter: drop-shadow(0px 18px 18px rgba(183, 195, 204, 0.966));
 }
+
 .cont {
   margin-left: 10%;
 }
+
 @media only screen and (max-width: 763px) {
   .cont {
     margin: 10%;
@@ -627,8 +690,9 @@ footer .person1 {
 .blog-img {
   box-shadow: 0px 0px 15px #b8b7b7;
   border: 7px solid #ffff;
- 
+
 }
+
 .blog-para {
   box-sizing: content-box;
   border: 4px solid #ffff;
@@ -641,22 +705,49 @@ footer .person1 {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
+  /* Add a dark-grey background on hover */
 
+}
+
+
+/* changes in css */
+.profilelinkborder {
+  padding: 31px 10px;
+  width: 520px !important;
+  /* max-width: 90vw; */
+  /* max-height: 600px; */
+  /* margin: 3em; */
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px #dddada, inset -5px -5px 10px #0000000c;
+  height: 150px;
 }
