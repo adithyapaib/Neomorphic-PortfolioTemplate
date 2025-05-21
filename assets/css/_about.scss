@@ -7,10 +7,12 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+
   .title {
     font-weight: 600;
     font-size: 2em;
   }
+
   .card-wrapper {
     width: 100%;
     margin-top: 5%;
@@ -19,6 +21,7 @@
     align-items: center;
     flex-wrap: wrap;
     max-height: fit-content;
+
     .box {
       width: 520px !important;
       max-width: 90vw;
@@ -36,9 +39,11 @@
       line-height: 1.6;
       padding-bottom: 20px;
     }
+
     .box1 {
       .resume {
         width: 100%;
+
         button {
           padding: 0.8em 1.8em;
           outline: none;
@@ -51,6 +56,7 @@
           margin-bottom: 0.5208333333333334vw;
           border-radius: 6px;
           transition: background 3s, border-radius 300ms 100ms;
+
           &:hover {
             background: #ff1900;
             color: white;
@@ -58,6 +64,7 @@
           }
         }
       }
+
       img {
         width: 25vh;
         height: 25vh;
@@ -68,16 +75,19 @@
         padding: 0.25em;
       }
     }
+
     .box2 {
       font-size: 1em;
       position: relative;
       height: max-content;
       padding: 20px;
+
       span {
         margin-top: 1.5rem;
         margin-bottom: 1em;
         font-weight: bold;
       }
+
       .mainlist {
         width: 100%;
         display: flex;
@@ -89,6 +99,7 @@
         .icon {
           margin-top: 20px;
         }
+
         .sublist {
           list-style: none;
           margin-left: 20px;
@@ -99,6 +110,7 @@
         font-size: 48px;
       }
     }
+
     .box3 {
       display: flex;
       justify-content: center;
@@ -112,34 +124,36 @@
         margin-bottom: 1em;
         font-weight: bold;
       }
-      ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-        list-style: none;
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+          list-style: none;
 
-        li {
-          margin: 10px;
-          a {
-            color: black;
-            font-size: 3em;
+          li {
+            margin: 10px;
+            a {
+              color: black;
+              font-size: 3em;
 
-            &:hover {
-              color: $orange;
+              &:hover {
+                color: $orange;
+              }
             }
           }
         }
       }
     }
   }
-}
-.section-title{
-  text-align: center;
-}
-.box3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+  .section-title {
+    text-align: center;
+  }
+
+  .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
