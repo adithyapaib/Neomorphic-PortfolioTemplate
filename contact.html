@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Adithya Pai</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/4019246ab4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo">Adithya Pai</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="about">
+        <div class="title">Contact Me</div>
+        <div class="card-wrapper">
+            <div class="box box3" style="width: 100%; max-width: 600px; margin: 0 auto;">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" required id="name" placeholder="Enter your Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address *</label>
+                        <input type="email" required id="email" placeholder="Enter your email address" />
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Phone Number *</label>
+                        <input type="text" pattern="^\d{10}$" required id="number" placeholder="Enter your Mobile Number" />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <textarea required id="subject" placeholder="Write something.."></textarea>
+                    </div>
+                    <button type="submit" id="contact-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Made with ❤️ by <a href="https://adithyapai.com">Adithya Pai</a></div>
+</body>
+</html>
