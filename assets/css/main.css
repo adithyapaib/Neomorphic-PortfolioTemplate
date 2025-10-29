@@ -36,6 +36,43 @@
   outline: none;
   border: none;
 }
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link{
+  text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow:
+        6px 6px 12px rgba(0, 0, 0, 0.1),
+        -6px -6px 12px rgba(255, 255, 255, 0.7);
+    transition: 0.3s ease;
+}
+/* Hover Effect */
+.link:hover {
+    transform: translateY(-3px);
+    color: #ff4b3e;
+    box-shadow:
+        6px 6px 14px rgba(0, 0, 0, 0.15),
+        -6px -6px 14px rgba(255, 255, 255, 0.9);
+}
+
+/* Active Link Click Effect */
+.link:active {
+    box-shadow:
+        inset 4px 4px 8px rgba(0, 0, 0, 0.1),
+        inset -4px -4px 8px rgba(255, 255, 255, 0.8);
+    color: #ff4b3e;
+}
 
 #btnScrollToTop:active {
   background: #eb3241;
