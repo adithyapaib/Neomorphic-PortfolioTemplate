@@ -5,7 +5,7 @@ const name = document.querySelector("#name");
 const number = document.querySelector("#number");
 const form = document.querySelector("#contact-form");
 
-if (contactBtn) {
+if (contactBtn && email && name && number && form) {
     contactBtn.addEventListener("click", (e) => {
         e.preventDefault();
         
